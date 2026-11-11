@@ -16,9 +16,9 @@ Open `index.html` in a modern browser. No build step, server, API key, or game e
 
 ## Publish with GitHub Pages
 
-The included Actions workflow deploys the repository root to GitHub Pages when code is pushed to `main`, or when manually triggered. To publish this branch, merge it into `main`, then in the repository open **Settings → Pages** and set the build and deployment source to **GitHub Actions**. The Actions run will publish the site; its deployment summary links to the live page. For a project site, the usual URL is `https://kushjohn266-hub.github.io/System-/` after deployment.
+After merging this branch into `main`, open repository **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose `main` and `/(root)`, then save. GitHub Pages will publish `index.html`; the project-site address is typically `https://kushjohn266-hub.github.io/System-/` once the deployment finishes. Pages availability and settings are controlled by GitHub and the repository owner.
 
 ## Project files
 
-- `index.html` — complete responsive interface, canvas-rendered world, local agent simulation, and command console.
-- `.github/workflows/pages.yml` — GitHub Actions Pages deployment workflow.
+- `index.html` — responsive interface, canvas-rendered world, local agent simulation, and command console.
+- `README.md` — controls and publishing instructions.
